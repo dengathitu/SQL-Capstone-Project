@@ -1,72 +1,82 @@
-# SQL Capstone Project 💼
+# SQL Capstone Project
 
-## By Den Peters Ngotho Gathitu
-
-Welcome to my SQL Capstone Project, built as part of my journey through Data Science, AI, and Digital Business. This repository contains a step-by-step analysis of a relational database scenario, showcasing advanced SQL techniques with real-world applications.
+## Author  
+**Den Peters Ngotho Gathitu**  
+Location: Berlin, Germany  
+LinkedIn: [https://www.linkedin.com/in/dpng/](https://www.linkedin.com/in/dpng/)
 
 ---
 
 ## Project Overview
 
-This project uses three core tables:
-- `Salesmen`
-- `Customers`
-- `Orders`
-
-With these, we answer business-critical questions including:
-- Customer-Salesman matching
-- City-based analysis
-- Order-customer integration
-- Performance evaluation
+This SQL Capstone Project demonstrates the application of relational database design, data population, and query logic to solve practical analytical challenges. It involves creating and working with three interrelated tables: `Salesmen`, `Customers`, and `Orders`.
 
 ---
 
-## Tech Stack
-- **SQL** (PostgreSQL / MySQL compatible)
-- **Git & GitHub**
-- Data Literacy + Business Logic
+## Objectives
+
+- Construct a relational schema with appropriate key constraints
+- Insert sample data reflecting real-world relationships
+- Use SQL queries to derive insights and answer business questions
+- Maintain reproducibility and clarity throughout the workflow
 
 ---
 
-## How to Run the Project
+## Database Structure
 
-1. Clone this repo  
-  git clone https://github.com/dengathitu/SQL-Capstone-Project.git
-2. Open files in your SQL environment
-3. Run queries in `sales_schema.sql` to create and populate tables
-4. Run queries in `questions.sql` to solve the challenge questions
+| Table Name       | Description                                        |
+|------------------|----------------------------------------------------|
+| `Salesmen`       | Sales representatives and their commission details |
+| `Customers`      | Client records linked to specific salesmen         |
+| `Orders`         | Purchase transactions associated with both parties |
 
----
-
-## Folder Structure
-
-| File | Purpose |
-|------|---------|
-| `sales_schema.sql` | Table creation + data inserts |
-| `questions.sql` | All SQL solutions step by step |
-| `README.md` | Project documentation |
+All tables include primary keys and are interlinked with foreign key references.
 
 ---
 
-## What I Learned
+## Included Files
 
-- JOIN logic and relational modeling
-- Case-insensitive comparisons
-- Table creation via SELECT statements
-- Using SQL to mimic business dashboards
-
----
-
-## Contact
-
-Feel free to connect if you'd like to discuss, share feedback, or collaborate:
-- LinkedIn: _Coming Soon_
-- Portfolio: _Work in Progress_
+| File Name           | Contents                                           |
+|---------------------|----------------------------------------------------|
+| `sales_schema.sql`  | Table creation and sample data insertion           |
+| `questions.sql`     | Seven queries addressing data relationships        |
+| `README.md`         | Full documentation of the project                  |
 
 ---
 
-## Final Note
+## Analytical Tasks
 
-This project is part of my academic work in SQL & Data Science, built with joy, curiosity, and caffeine 
-. All feedback is welcome!
+1. Match customers and salesmen based on shared city (case-insensitive)
+2. Generate a table linking each customer to their assigned salesman
+3. View contents of the customer-salesman relationship table
+4. Identify orders where the customer’s city does not match the salesman’s
+5. Display those mismatched orders
+6. Create a table combining order data with customer names
+7. View the combined order and customer information
 
+All queries are formatted for clarity and reproducibility.
+
+---
+
+## How to Run
+
+1. Open the project folder in VS Code  
+2. Use the SQLite extension or command line to open `database.db`  
+3. Run `sales_schema.sql` to create and populate the tables  
+4. Run `questions.sql` to execute the seven queries  
+5. View outputs using the VS Code SQLite extension or `SELECT * FROM` statements
+
+---
+
+## Learning Outcomes
+
+- SQL schema design with foreign key relationships  
+- Data manipulation using JOINs and subqueries  
+- Creating tables from query results for analysis  
+- Proper use of `DROP TABLE IF EXISTS` for reliable re-execution  
+- Clean documentation suitable for academic and professional presentation
+
+---
+
+For inquiries, collaboration, or feedback, please connect via LinkedIn:  
+[https://www.linkedin.com/in/dpng/](https://www.linkedin.com/in/dpng/)
