@@ -1,10 +1,12 @@
 # SQL Capstone Project
 
-## Author  
-**Den Peters Ngotho Gathitu**  
-Location: Berlin, Germany 
-Email: dengathitu@gmail.com
-LinkedIn: [https://www.linkedin.com/in/dpng/](https://www.linkedin.com/in/dpng/)
+## Author
+
+Den Peters Ngotho Gathitu  
+Location: Berlin, Germany  
+Email: dengathitu@gmail.com  
+LinkedIn: https://www.linkedin.com/in/dpng/
+
 
 ---
 
